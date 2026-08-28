@@ -4,3 +4,4 @@ console.log("Hola java")
 crea un comentario de varias lineas */
 console.log (6) // console.log es el print de javaScript
 
+console.log ("Modo sexo")

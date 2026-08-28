@@ -77,3 +77,4 @@ switch (day) {
 }
 
 console.log(dayName)
+console.log(dayName)

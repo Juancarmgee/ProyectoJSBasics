@@ -53,3 +53,5 @@ estoyFeliz ? console.log ("se antoja beber") : console.log ("solo quiero dormir"
 // 10. Combina operadores aritméticos, de comparación y lógicos
 
 console.log (54+100 == 154 && 56/7 >7 || 45-5 >= 40)
+
+console.log (suma)

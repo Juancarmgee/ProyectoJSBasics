@@ -86,28 +86,33 @@ for (let posicion = name .length - 1 ; posicion >= 0 ; posicion--){
     console.log (name [posicion])
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
 
+
+let fibo = 0 
+let segvar = 1
+let resultado = 0
+
+for ( let i = 1 ; i <=10 ; i++){
+
+    resultado = fibo + segvar
+    fibo = segvar
+    segvar = resultado
+    
+    console.log(resultado)
+}
+
+
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10 
+
+const A35 = [23984,5,23,6,9,100,60]
+let nuevoArray = []
+
+for (let otro of A35){
+    if (otro <=10){
+        continue
+    }    nuevoArray.push(otro)
+    console.log (nuevoArray)
+}
+
+console.log (nuevoArray)

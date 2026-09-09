@@ -36,27 +36,54 @@ for (let par = 2 ; par <= 50 ; par +=2){
 const nombres = [ "Juan" , "Carlos" , "Marquez" , "Guevara"]
 
 
-for (let Nombres of nombres){
-    console.log (nombres)
+for (let names of nombres){
+    console.log (names)
 }
 
 // 5. Escribe un bucle que cuente el número de vocales en una cadena de texto
 
 
-string1 = "Juan Carlos"
+const string1 = "Me cago en todo lo que se menea"
+let totalDeLetras = 0
+
+
 for ( let vowel of string1){
-    if (vowel == "a"){
-        continue
-    } else if (vowel == "e"){
-        continue
-    } else if (vowel == "i"){
-        continue
-    } else if (vowel == "o"){
-        continue
-    } else if (vowel == "o"){
-        continue
-    } else 
-console.log ("Este es el numero de vocales del string" , vowel)
+   if (vowel == "a"||vowel == "e"||vowel == "i"||vowel == "o"||vowel == "u"){
+            totalDeLetras++
+   } else {
+
+   }
+    }
+    console.log ("Este es el numero de vocales del string" , totalDeLetras)
+
+// 6. Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto
+
+
+const setso = [ 1 , 2 , 3 , 4 , 5]
+let resultadoMulti = 1
+
+for (let multi of setso){
+    resultadoMulti = resultadoMulti * multi
+    
+}
+console.log ("Este es el resultado de la multiplicacion:" , resultadoMulti)
+
+
+// 7. Escribe un bucle que imprima la tabla de multiplicar del 5
+
+const tablas = [1,2,3,4,5,6,7,8,9,10]
+
+for (let letra1 of tablas){ 
+    console.log ("tabla del 5:", letra1 , "x" , 5, "=" , letra1*5 )
+}
+
+// 8. Usa un bucle para invertir una cadena de texto
+
+
+const name = "pato"
+
+for (let posicion = name .length - 1 ; posicion >= 0 ; posicion--){
+    console.log (name [posicion])
 }
 
 
@@ -81,12 +108,6 @@ console.log ("Este es el numero de vocales del string" , vowel)
 
 
 
-// 6. Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto
-
-// 7. Escribe un bucle que imprima la tabla de multiplicar del 5
-
-// 8. Usa un bucle para invertir una cadena de texto
-
 // 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
 
-// 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
+// 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10 
